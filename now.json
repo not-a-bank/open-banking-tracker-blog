@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "CONTENTFUL_SPACE": "@contentful_space",
+      "CONTENTFUL_TOKEN": "@contentful_token"
+    }
+  }
+}
