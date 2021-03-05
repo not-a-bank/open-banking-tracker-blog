@@ -28,8 +28,8 @@ const next_config = {
   },
 
   env: {
-    'CONTENTFUL_SPACE': process.env.CONTENTFUL_SPACE,
-    'CONTENTFUL_TOKEN': process.env.CONTENTFUL_TOKEN
+    'CONTENTFUL_SPACE': 'k4zfdws3na2y',
+    'CONTENTFUL_TOKEN': '3P7hWXXuTyhxhqMA_BrsOxhCSOQww9st2b0vaimoy4g'
   },
 
   exportPathMap: async () => {

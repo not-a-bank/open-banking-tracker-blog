@@ -1,24 +1,57 @@
-export const SITE_NAME = 'Banq Blog'
+export const SITE_NAME = 'Open Banking Tracker Blog'
 export const COPYRIGHT_NAME = 'Banq'
-export const BASE_URL = 'https://blog.banq.ai/'
+export const BASE_URL = 'https://blog.openbankingtracker.com/'
 export const FAVICON = 'https://www.banq.ai/static/favicon.png'
-export const LOGO = 'https://www.banq.ai/static/images/banq.svg'
+export const LOGO = 'https://openbankingtracker.com/obt-logo.png'
+export const LOGO_HEIGHT = '25px'
 export const OG_IMAGE = 'https://www.banq.ai/preview.png'
-export const OG_DESCRIPTION = 'Stay up to date with the latest Banq news. Get the latest industry insights and trends about banking, Fintech & APIs.'
-export const TWITTER_HANDLE = 'banq_ai'
+export const OG_DESCRIPTION = 'Stay up to date with the latest open banking news. Get the latest industry insights and trends about open banking, open finance, Fintech & APIs.'
+export const TWITTER_HANDLE = 'bankingtracker'
 export const TWITTER_URL = 'https://www.twitter.com/' + TWITTER_HANDLE
 export const MASTHEAD_BG_COLOR = '#000'
 export const FOOTER_BG_COLOR = '#000'
 export const DARK_LINK_COLOR = ''
 export const PRIMARY_COLOR = '#0056FC'
-export const METOMIC_PROJECT_ID = '97d085e6-af9d-4990-8fa2-6fbd04940e49'
-export const SEGMENT_API_KEY = 'Q6o2CMKqWaIoU6lJV9rgvbjsEsMQkMQI'
+export const METOMIC_PROJECT_ID = ''
+export const SEGMENT_API_KEY = ''
 export const CTA_TITLE = 'Interested in more insights?'
 export const CTA_DESCRIPTION = 'Banq builds data products and ecosystem solutions for bank and fintech providers.'
 export const CTA_BUTTON_LABEL = 'Join our private beta'
 export const CTA_BUTTON_LINK = 'https://banq.us19.list-manage.com/subscribe?u=608147ae4e2d6b1fd96bd961b&id=ca3cf23691'
+export const PRIVATE_BETA = 'https://banq.us19.list-manage.com/subscribe?u=608147ae4e2d6b1fd96bd961b&id=88ccd22ace'
+export const OBT_URL = 'https://www.openbankingtracker.com/'
 
 export const NAV_LINKS = [
+  {
+    'id': 'home',
+    'href': OBT_URL,
+    'label': 'Home',
+    'className': 'ml-4'
+  },
+  {
+    'id': 'data',
+    'href': OBT_URL + 'data',
+    'label': 'Data',
+    'className': 'ml-4'
+  },
+  {
+    'id': 'api-directory',
+    'href': OBT_URL + 'api-directory',
+    'label': 'API Directory',
+    'className': 'ml-4'
+  },
+  {
+    'id': 'countries',
+    'href': OBT_URL + 'countries',
+    'label': 'Open Banking Countries',
+    'className': 'ml-4'
+  },
+  {
+    'id': 'api-aggregators',
+    'href': OBT_URL + 'api-aggregators',
+    'label': 'API Aggregators',
+    'className': 'ml-4'
+  },
   {
     'id': 'banq',
     'href': 'https://www.banq.ai/',
@@ -26,21 +59,9 @@ export const NAV_LINKS = [
     'className': 'ml-4'
   },
   {
-    'id': 'obt',
-    'href': 'https://www.openbankingtracker.com/',
-    'label': 'Open Banking Tracker',
-    'className': 'ml-4'
-  },
-  {
-    'id': 'challenger-banks',
-    'href': 'https://www.challengerbanks.co/',
-    'label': 'Challenger Banks',
-    'className': 'ml-4'
-  },
-  {
     'id': 'beta-access',
-    'href': 'https://banq.us19.list-manage.com/subscribe?u=608147ae4e2d6b1fd96bd961b&id=ca3cf23691',
-    'label': 'Request beta access',
+    'href': PRIVATE_BETA,
+    'label': 'Newsletter',
     'type': 'button',
     'className': 'ml-4'
   }

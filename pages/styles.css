@@ -320,6 +320,7 @@ ol {
   flex-basis: 40%;
   flex-grow: 1.5;
   max-height: 180px;
+  height: 180px;
 
   background-size: cover !important;
 }

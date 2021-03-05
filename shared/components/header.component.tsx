@@ -1,7 +1,7 @@
-import React, { FunctionComponent } from 'react';
+import classNames from 'classnames';
 import Link from 'next/link';
-import classNames from 'classnames'
-import { NAV_LINKS, LOGO } from '../../template'
+import React, { FunctionComponent } from 'react';
+import { LOGO, LOGO_HEIGHT, NAV_LINKS } from '../../template';
 
 type Props = {};
 const Header: FunctionComponent<Props> = ({}) => {
@@ -10,7 +10,7 @@ const Header: FunctionComponent<Props> = ({}) => {
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link href='/'>
           <a>
-            <img src={LOGO} alt="logo" />
+            <img src={LOGO} alt="logo" style={{ maxHeight: LOGO_HEIGHT || '30px' }} />
             {/* <span className="font-semibold text-xl tracking-tight">Blog</span> */}
           </a>
         </Link>

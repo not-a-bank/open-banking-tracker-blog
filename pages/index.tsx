@@ -1,15 +1,13 @@
-import React, { FunctionComponent, useEffect, useState } from 'react';
 import { NextPage } from 'next';
 import { useRouter } from 'next/router';
-
+import React, { useEffect, useState } from 'react';
 import { defaultMetaTags } from '../core/constants';
-import Layout from '../shared/components/layout.component';
 import { ContentfulService } from '../core/contentful';
 import { BlogPost } from '../interfaces/post';
 import Card from '../shared/components/card.component';
-import Paginator from '../shared/components/paginator/paginator.component';
-import TagFilters from '../shared/components/tag-filters/tag-filters.component';
-import { TWITTER_URL } from '../template'
+import Layout from '../shared/components/layout.component';
+import { TWITTER_URL } from '../template';
+
 
 const calculateRange = length => Array.from({ length }, (v, k) => k + 1);
 
@@ -51,7 +49,7 @@ const IndexPage: NextPage = (props: Props) => {
   return (
     <Layout metaTags={defaultMetaTags}>
       <header>
-        <h1>Blog</h1>
+        <h1>Open Banking Blog</h1>
         <h2>Company Updates, Interviews, Ecosystem Breakdowns & Technology Articles</h2>
         <a className='text-white' href={TWITTER_URL}>Follow Us On Twitter</a>
       </header>
